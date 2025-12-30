@@ -13,10 +13,82 @@ video {
   display: block;
 }
 
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: black;
+  background-color: #F9F9F9;
+  padding: 50px;
+}
+
 label {
   display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: #555555;
+}
+
+input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  padding-left: 12px;
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
 }
 
 input:focus {
   outline: none;
+  background-color: #EEEEEE;
+  border: 1px solid #000000;
 }
+
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.8px;
+}
+
+form {
+  max-width: 400px;
+  padding: 32px;
+  border-radius: 32px;
+  border: 1px solid #CCCCCC;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  background-color: #FFFFFF;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.login-input#password:focus {
+  font-size: 38px;
+}
+
+button:default {
+  border: none;
+  background-color: #1576EA;
+  color: white;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
